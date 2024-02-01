@@ -101,7 +101,9 @@ theme: volantis
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/lianisok/lianisok.github.io
+  branch: gh-pages
 
 
 import:
